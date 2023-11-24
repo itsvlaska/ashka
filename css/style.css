@@ -55,23 +55,32 @@ body{
   background-color: #161C2D;
 }
 .header {
-  
+  margin-top:3.7rem;
+  display: flex;
+  justify-content: space-between;
 }
 .container {
-  max-width: 144rem;
   margin: 0 2.4rem;
 }
 .header-link-catering {
+  margin: 2.26rem;
+  width: 12.9362rem;
+  height: 3.7447rem;
+}
+.hero-menu-btn{
 }
 .logo {
+  position: absolute;
+  left: 50% ;
 }
 .main {
 }
 .section-hero {
-  background-image: url('/img/jpg/hero.png');
+  margin-top: 9.8rem;
+  background-image: url('/img/hero.png');
   background-repeat: no-repeat; 
-  width: 37.5rem;
-  height: 58rem;
+  min-height: 58rem;
+  
 }
 .hero-welcome {
   color: var(--text-color1);
@@ -81,11 +90,13 @@ font-size: 1.4rem;
 font-style: normal;
 font-weight: 400;
 line-height: 1.4rem;
+margin-top: 9.8rem;
 }
 .hero-catering {
   color: var(--text-color1);
-  width: 32.7rem;
+  text-align: center;
   font-size: 3.3rem;
+  text-align: center;
 }
 .hero-description {
   color: var(--text-color1);
@@ -157,6 +168,10 @@ line-height: 1.4rem;
   background: #FFF;
 }
 .shef-img {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 2.86rem */
 }
 .shef-feel-p{
   font-size: 2.2rem;
@@ -184,9 +199,10 @@ font-weight: 300;
 line-height: 160%; /* 2.24rem */
 }
 .section-smi {
-  background-image: url('/img/jpg/smi.png');
+  background-image: url('/img/smi.png');
   background-repeat: no-repeat; 
   height: 62.4rem;
+  fill-opacity: 0.4;
 }
 .hero-hsmi{
   color:var(--text-color1);
