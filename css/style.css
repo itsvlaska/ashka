@@ -66,7 +66,7 @@ body {
   display: flex;
 }
 .container {
-  margin: 0 2.4rem;
+  padding: 0 2.4rem;
 }
 .header-link-catering {
   margin-left: 2.26rem;
@@ -74,7 +74,10 @@ body {
   height: 3.7447rem;
 }
 .hero-menu-btn {
-  margin: 3.7rem 2rem 11.1rem 32.9rem;
+  padding-right: 2rem;
+  margin-top: 2.26rem;
+  background: none;
+  border: none;
 }
 .logo {
   margin-top: 1.2rem;
@@ -119,17 +122,19 @@ body {
   line-height: 100%;
   text-align: center;
   margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
 }
 .hero-img-row {
   display: flex;
   height: 4.5rem;
+  justify-content: center;
+  gap: 2.8rem;
 }
 .hero-sheet-img {
 }
+
 .hero-where-img {
-}
-.hero-sheet2-img {
+  width: 13.9rem;
+  height: 2.7rem;
 }
 .hero-button {
   height: 5.2rem;
@@ -203,6 +208,10 @@ body {
 .shef-img {
   padding-top: 8.4rem;
 }
+
+.img-ff {
+  margin-top: -3.4rem;
+}
 .shef-name {
   font-size: 2.2rem;
   font-style: normal;
@@ -221,6 +230,10 @@ body {
   font-weight: 300;
   margin-top: 4rem;
   margin-bottom: 1.4rem;
+}
+.shef-video {
+  margin-left: -2.4rem;
+  width: 37.5rem;
 }
 .section-whyus {
   background: var(--text-color1);
@@ -281,6 +294,7 @@ body {
 .arrow-left-img {
 }
 .arrow-right-img {
+  margin-left: 0.6rem;
 }
 .section-footer {
   background-color: var(--text-color1);
