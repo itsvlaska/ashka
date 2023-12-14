@@ -1,0 +1,64 @@
+body{
+  background-color: gray;
+}
+footer{
+  padding-top: 30px;
+}
+.dashboard{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "linkss grafic";
+  margin: 10px;
+  padding-top: 90px;
+
+}
+
+.links{
+  grid-area: linkss;
+}
+
+.graf{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-area: grafic;
+}
+
+.largbocks{
+  grid-column: 1/-1;
+}
+
+.smallbocks{
+  grid-column: span 2;
+}
+
+.mediumbocks{
+  grid-column: span 3;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+
+.item{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: span 1;
+  max-width: 100%;
+  border-radius: 8px;
+  justify-self: center;
+  align-items: center;
+}
+
+.itemimg{
+  grid-column: -1/1;
+  grid-row-start: 1;
+  max-width: 100%;
+}
+
+.itema{
+  background-color: black;
+  padding: 10px 20px;
+  grid-column: -1/1;
+  grid-row-start: 1;
+}

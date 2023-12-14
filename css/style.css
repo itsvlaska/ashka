@@ -48,10 +48,6 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 1.4rem */
-  padding-top: 6rem;
-}
-p {
-  font-family: "Lab Grotesque";
 }
 
 body {
@@ -86,7 +82,7 @@ body {
 .main {
 }
 .section-hero {
-  background-image: url("/img/hero.png");
+  background-image: url("/img/hero.jpg");
   background-repeat: no-repeat;
   min-height: 58rem;
 }
@@ -151,6 +147,7 @@ body {
 }
 .section-us {
   background: var(--text-color1);
+  padding-top: 6rem;
 }
 .us-help-p {
   margin-top: 4rem;
@@ -204,9 +201,10 @@ body {
 }
 .section-shef {
   background: var(--text-color1);
+  padding-top: 8.4rem;
 }
 .shef-img {
-  padding-top: 8.4rem;
+
 }
 
 .img-ff {
@@ -234,12 +232,13 @@ body {
 .shef-video {
   margin-left: -2.4rem;
   width: 37.5rem;
+  padding-top: 6rem;
 }
 .section-whyus {
   background: var(--text-color1);
+  padding-top: 4rem;
 }
 .hero-h2-whyus {
-  padding-top: 4rem;
 }
 .whyus-think-p {
   margin-top: 3.2rem;
@@ -267,12 +266,13 @@ body {
 .section-smi {
   background-image: url("/img/smi.png");
   background-repeat: no-repeat;
-  height: 62.4rem;
+  height: 56.4rem;
   fill-opacity: 0.4;
+  padding-top: 6rem;
 }
 .hero-hsmi {
   color: var(--text-color1);
-  padding-top: 6rem;
+  
 }
 .smi-img {
   margin-bottom: 4rem;
