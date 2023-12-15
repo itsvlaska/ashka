@@ -22,6 +22,7 @@
   src: url(/fonts/LabGrotesque-Regular.woff);
 }
 
+
 :root {
   --text-color1: white;
   --text-color2: #222733;
@@ -48,6 +49,10 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 1.4rem */
+}
+
+.wrapper {
+  display: none;
 }
 
 body {
@@ -98,7 +103,6 @@ body {
 .hero-catering {
   color: var(--text-color1);
   margin-left: 2.4rem;
-  width: 32.7rem;
   font-size: 3.3rem;
   margin-top: 1.2rem;
 }
@@ -141,9 +145,14 @@ body {
   display: flex;
   justify-content: center;
   background: var(--text-color1);
-  margin: 3.2rem 2.4rem 3.2rem 2.4rem;
   padding: 1.8rem 4.8rem;
   align-self: stretch;
+  margin-top: 3.2rem;
+}
+.btcontainer{
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .section-us {
   background: var(--text-color1);
@@ -318,4 +327,21 @@ body {
   padding-bottom: 4rem;
 }
 .footer-list-icons {
+}
+
+@media screen and (min-width: 500px) {
+  .section-hero-p {
+      width: 448px;
+  }
+}  
+
+@media screen and (min-width: 700px) {
+  .section-hero-text {
+      padding: 2rem;
+  }
+  }
+
+  @media screen and (min-width: 900px) {
+    
+  
 }
