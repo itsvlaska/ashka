@@ -3,7 +3,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
+::placeholder {
+  color: #d53131;
+  font-style: italic;
+}
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: red;
+}
 .container_form_page {
   max-width: 60rem;
   margin: 0 auto;
@@ -14,11 +21,33 @@ body {
   padding-top: 10rem;
   font-family: "Roboto", sans-serif;
   padding-right: 2rem;
-  
 }
 
-.contact-form{
+.contact-form {
   padding-right: 2rem;
+}
+
+input:required,
+textarea:required,
+select:required {
+  border: 1px solid red;
+}
+
+input:required:focus,
+textarea:required:focus,
+select:required:focus {
+  /* Стили для обязательных полей при фокусе */
+  outline-color: red;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
 label {
@@ -44,4 +73,5 @@ button {
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
+  margin-top: 3rem;
 }
