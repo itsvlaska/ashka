@@ -37,7 +37,12 @@ a:active {
 a:focus {
   outline: none;
 }
+.b-str1{
+  border: none;
+  background: none;
 
+
+}
 button:hover {
   background-color: #999;
   transform: scale(1.1) rotate(5deg);
@@ -117,6 +122,19 @@ button {
   position: relative;
   z-index: 1;
 }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 :root {
   --text-color1: white;
   --text-color2: #222733;
