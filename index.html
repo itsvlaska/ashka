@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <a class="skip-link" href="#main">
+            Перейти к контенту
+        </a>
     <header class = "header">
         <div class="dek-best-logo">
             <p class="dek-best">Лучший кейтеринг в Санкт-Петербурге</p>
@@ -32,8 +35,8 @@
         </div>
         <button class="hero-menu-btn"><img src="/img/menu.svg" alt="menu"></button>
     </header>
-    <main class = "main">
-        <section class="section-hero">
+    <main id = "main">
+        <section class="section-hero wrapper">
             <div class="section-hero-text">
                 <p class ="hero-welcome">Добро пожаловать</p>
                 <h1 class ="hero-catering">Безупречный кейтеринг на Вашем мероприятии</h1>
@@ -42,12 +45,12 @@
                     обеспечим первоклассное обслуживание и неповторимую кухню от ресторана
                     Nordic.</p>
                 </div>
-                <div class="section-hero-text2">
+                <div class="section-hero-text2 wrapper">
                     <p class ="hero-top">ТОП 50</p>
                     <div class="hero-img-row">
-                        <img class ="hero-sheet-img" src="/img/sheet1.svg " alt="листик">
+                        <img class ="hero-sheet-img" src="/img/sheet1.svg " alt="">
                         <img class ="hero-where-img"  src="/img/wheretoeat.png " alt="where to eat?">
-                        <img  class="hero-sheet-img" src="/img/sheet2.svg " alt="листик">
+                        <img  class="hero-sheet-img" src="/img/sheet2.svg " alt="">
                     </div>
                     <div class = "btcontainer">
                         <button class="hero-button">Оставить заявку</button>
@@ -115,8 +118,9 @@
                         <p class="shef-name">
                         Игорь Васильев
                         </p>
-                    </div>
+                    </div>    
                 </div>
+            </div>
         </section>
         <section class="section-video">            
                 <div class="video-container"><img class="shef-video" src="/img/video-dekstop.jpg" alt=""></div>   
@@ -127,47 +131,45 @@
                     <h2 class="hero-h2-whyus">Почему мы</h2>
                     <div class="dek-whyus-ul">
                         <p class="whyus-think-p">Мы считаем, что каждое событие особенное и заслуживает стильного празднования.</p>
-                        <ul class="whyus-ul-item">
-                            <div class="aaa">
-                                <div class="bbb">
+                        <div class="whyus-ul-item">
+                            <ul class="bbb">
+                                <li class="whyus-list">
+                                    <img src="/img/people.svg" alt="люди" >
+                                    <p class="whyus-list-p">
+                                        Nordic имеет команду опытных профессионалов в сфере общественного питания, которые занимаются поставкой высококачественной еды и исключительного обслуживания.
+                                    </p>
+                                </li>
+                                <li class="whyus-list">
+                                    <img src="/img/book.svg" alt="книга" >
+                                    <p class="whyus-list-p">
+                                        Nordic предлагает множество вариантов меню, которые можно настроить в соответствии с вашими конкретными потребностями и предпочтениями.
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="whyus-list">
+                                    <img src="/img/task.svg" alt="список" >
+                                    <p class="whyus-list-p">
+                                        Nordic помогает снять стресс при планировании мероприятий, предлагая комплексное решение для всех ваших потребностей в сфере кейтеринга, включая планирование мероприятий и выбор места проведения.
+                                    </p>
+                                </li>
+                                <li class="whyus-list">
+                                    <img src="/img/carrot.svg" alt="морковь" >
+                                    <p class="whyus-list-p">
+                                        Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.
+                                    </p>
+                                </li>
+                                <!-- <div>
                                     <li class="whyus-list">
-                                        <img src="/img/people.svg" alt="люди" >
-                                        <p class="whyus-list-p">
-                                            Nordic имеет команду опытных профессионалов в сфере общественного питания, которые занимаются поставкой высококачественной еды и исключительного обслуживания.
-                                        </p>
+                                        <div class="loader"></div>
+                                            <img class="aim" src="/img/carrot.svg" alt="морковь" >
+                                            <p class="whyus-list-p">
+                                                Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.
+                                            </p>
                                     </li>
-                                    <li class="whyus-list">
-                                        <img src="/img/book.svg" alt="книга" >
-                                        <p class="whyus-list-p">
-                                            Nordic предлагает множество вариантов меню, которые можно настроить в соответствии с вашими конкретными потребностями и предпочтениями.
-                                        </p>
-                                    </li>
-                                </div>
-                                <div>
-                                    <li class="whyus-list">
-                                        <img src="/img/task.svg" alt="список" >
-                                        <p class="whyus-list-p">
-                                            Nordic помогает снять стресс при планировании мероприятий, предлагая комплексное решение для всех ваших потребностей в сфере кейтеринга, включая планирование мероприятий и выбор места проведения.
-                                        </p>
-                                    </li>
-                                    <li class="whyus-list">
-                                        <img src="/img/carrot.svg" alt="морковь" >
-                                        <p class="whyus-list-p">
-                                            Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.
-                                        </p>
-                                    </li>
-                                    <div>
-                                        <li class="whyus-list">
-                                            <div class="loader"></div>
-                                                <img class="aim" src="/img/carrot.svg" alt="морковь" >
-                                                <p class="whyus-list-p">
-                                                    Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.
-                                                </p>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </ul>
+                                </div> -->
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
